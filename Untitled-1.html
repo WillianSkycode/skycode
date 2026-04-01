@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCode Solutions | ADS & Drone Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            background-color: #020617; 
+            color: #f8fafc; 
+            font-family: 'Inter', sans-serif; 
+        }
+        .sky-gradient { 
+            background: linear-gradient(135deg, #0ea5e9, #6366f1); 
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+        }
+        .glass-card {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(56, 189, 248, 0.1);
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+    
+    <div class="max-w-2xl w-full text-center">
+        
+        <div class="mb-8 inline-block px-4 py-1 bg-sky-500/10 rounded-full border border-sky-500/20">
+            <span class="text-sky-400 font-mono tracking-widest text-xs uppercase animate-pulse italic">
+                System Online // Curitiba-PR
+            </span>
+        </div>
+
+        <h1 class="text-5xl md:text-7xl font-black mb-6 tracking-tighter">
+            SkyCode <span class="sky-gradient">Solutions</span>
+        </h1>
+
+        <p class="text-slate-400 text-lg mb-10 leading-relaxed max-w-lg mx-auto">
+            Fusão entre inteligência de dados e tecnologia aérea. 
+            Especialista em capturas cinematográficas com <span class="text-white font-bold">DJI Neo</span> 
+            e desenvolvimento de sistemas sob medida.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12 text-left">
+            <div class="p-6 glass-card rounded-2xl hover:border-sky-500/40 transition-all cursor-default">
+                <div class="text-sky-400 mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                    </svg>
+                </div>
+                <h3 class="font-bold text-xl mb-1 italic text-white">Fullstack Code</h3>
+                <p class="text-sm text-slate-500">Análise e Desenvolvimento de Sistemas de alta performance.</p>
+            </div>
+
+            <div class="p-6 glass-card rounded-2xl hover:border-indigo-500/40 transition-all cursor-default">
+                <div class="text-indigo-400 mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                    </svg>
+                </div>
+                <h3 class="font-bold text-xl mb-1 italic text-white">Aerial Intelligence</h3>
+                <p class="text-sm text-slate-500">Imagens aéreas 4K para o mercado imobiliário e industrial.</p>
+            </div>
+        </div>
+
+        <div class="space-y-4">
+            <p class="text-sm text-slate-600 uppercase tracking-widest font-semibold">Projetos em Sigilo (Stealth Mode)</p>
+            <div class="h-1 w-20 bg-sky-500 mx-auto rounded-full opacity-50"></div>
+        </div>
+    </div>
+
+    <footer class="fixed bottom-8 text-slate-700 text-xs tracking-widest font-mono">
+        EST. 2026 // BUILT BY WILLIAM
+    </footer>
+
+</body>
+</html>
